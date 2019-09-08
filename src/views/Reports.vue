@@ -17,7 +17,7 @@
                 {
                     title: "Kmom1",
                     id: 1,
-                    git: "https://github.com/malp16",
+                    git: "https://github.com/malp16/me-page1.git",
                     contentHeading: "README",
                     content: `
 

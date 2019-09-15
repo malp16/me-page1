@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import Me from './views/Me.vue'
+import Form from './views/Form.vue'
 import Reports from './views/Reports.vue'
 
 Vue.use(Router)
@@ -16,6 +17,11 @@ export default new Router({
         path: '/',
         name: 'Me',
         component: Me
+    },
+    {
+        path: '/form',
+        name: 'Form',
+        component: Form
     },
     {
         path: '/reports/weeks/:id',
